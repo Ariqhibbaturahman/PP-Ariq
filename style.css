@@ -1,0 +1,108 @@
+/* ===== Reset Dasar ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #161615;
+}
+
+/* ===== MAIN ===== */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    border-left: 5px solid #b3aeae;
+    padding-left: 10px;
+    color: #333;
+}
+
+/* ===== FOTO ===== */
+img {
+    width: 150px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ===== ASIDE ===== */
+aside {
+    background-color: #e9e2e2;
+    padding: 15px;
+    border-left: 5px solid #050505;
+    margin: 20px 0;
+}
+
+/* ===== TABEL ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+thead {
+    background-color: #d9d9d9;
+}
+
+tfoot {
+    background-color: #efefef;
+    font-weight: bold;
+}
+
+/* ===== LIST KEAHLIAN ===== */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
