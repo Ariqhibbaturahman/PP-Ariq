@@ -1,108 +1,122 @@
-/* ===== Reset Dasar ===== */
+/* ============================
+   STYLE UNTUK PORTOFOLIO ARIQ
+===============================*/
+
+/* Global */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #575353;
-    line-height: 1.6;
+    background: #f3f3f3;
 }
 
-/* ===== HEADER ===== */
+/* Header */
 header {
-    background-color: #1a1a1a;
+    background: #4CAF50;
     color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 25px 10px;
 }
 
-/* ===== NAVIGATION ===== */
+header h1 {
+    margin: 0;
+}
+
+/* Navigasi */
 nav {
-    background-color: #1f1414;
+    background: #333;
     text-align: center;
     padding: 10px 0;
 }
 
 nav a {
-    color: rgb(255, 254, 254);
+    color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #161615;
+    text-decoration: underline;
 }
 
-/* ===== MAIN ===== */
+/* Main Content */
 main {
-    max-width: 900px;
-    margin: 20px auto;
-    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Tentang Saya */
+#tentang article {
+    background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
-/* ===== HEADINGS ===== */
-h2 {
-    border-left: 5px solid #b3aeae;
-    padding-left: 10px;
-    color: #333;
+#tentang img {
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-/* ===== FOTO ===== */
-img {
-    width: 150px;
-    border-radius: 10px;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/* ===== ASIDE ===== */
+/* Aside */
 aside {
-    background-color: #e9e2e2;
+    background: #fff;
     padding: 15px;
-    border-left: 5px solid #050505;
+    width: 250px;
     margin: 20px 0;
+    border-left: 4px solid #4CAF50;
 }
 
-/* ===== TABEL ===== */
+aside p {
+    margin: 8px 0;
+}
+
+/* Pendidikan (Tabel) */
+#pendidikan {
+    margin-top: 30px;
+}
+
 table {
     width: 100%;
+    background: white;
     border-collapse: collapse;
-    margin-top: 10px;
 }
 
-table th,
-table td {
-    border: 1px solid #aaa;
-    padding: 10px;
-}
-
-thead {
-    background-color: #d9d9d9;
-}
-
-tfoot {
-    background-color: #efefef;
+caption {
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
-/* ===== LIST KEAHLIAN ===== */
-ul {
-    list-style-type: square;
-    padding-left: 20px;
+th, td {
+    padding: 10px;
+    text-align: left;
 }
 
-ul li {
-    margin-bottom: 5px;
+th {
+    background: #4CAF50;
+    color: white;
 }
 
-/* ===== FOOTER ===== */
+tfoot td {
+    background: #f0f0f0;
+    text-align: center;
+}
+
+/* Keahlian */
+#keahlian ul {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    list-style: square;
+}
+
+/* Footer */
 footer {
-    background-color: #1a1a1a;
+    background: #333;
     color: white;
     text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 15px 0;
+    margin-top: 30px;
 }
+
