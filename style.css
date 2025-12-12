@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #424242;
+    background-color: #575353;
     line-height: 1.6;
 }
 
@@ -17,7 +17,7 @@ header {
 
 /* ===== NAVIGATION ===== */
 nav {
-    background-color: #333;
+    background-color: #1f1414;
     text-align: center;
     padding: 10px 0;
 }
