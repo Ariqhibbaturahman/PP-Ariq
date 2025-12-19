@@ -121,30 +121,29 @@ footer {
 }
 
 .cta-button {
-   /* Gaya Virtual */
-   background-coler: #e74c3c; /* Warna Merah kontras */
-   coler: white;
+   /* Gaya visual */
+   background-color: #e74c3c; /* Warna merah kontras */
+   color: white;
    font-weight: bold;
 
-   /* ukuran dan bentuk */
+   /* Ukuran dan bentuk */
    padding: 8px 15px;
    border-radius: 5px;
 
-   transition: backgraound-coler o.3s easei
+   transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-   background-coler: #c0392b;
+   background-color: #c0392b;
 }
 
 .nav.cta a {
-   teks-decoration: none;
-}
-   
-.nav.cta a { 
-   display: flexi;
+   text-decoration: none;
+   display: flex;
    gap: 20px;
 }
+
+
 
 
 
