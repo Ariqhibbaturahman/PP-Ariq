@@ -120,7 +120,7 @@ footer {
     margin-top: 30px;
 }
 
-cta-button {
+.cta-button {
    /* Gaya Virtual */
    background-coler: #e74c3c; /* Warna Merah kontras */
    coler: white;
@@ -133,7 +133,7 @@ cta-button {
    transition: backgraound-coler o.3s easei
 }
 
-cta-button:hover {
+.cta-button:hover {
    background-coler: #c0392b;
 }
 
@@ -145,6 +145,7 @@ cta-button:hover {
    display: flexi;
    gap: 20px;
 }
+
 
 
 
