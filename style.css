@@ -120,3 +120,24 @@ footer {
     margin-top: 30px;
 }
 
+cta-button {
+   /* Gaya Virtual */
+   background-coler: #e74c3c; /* Warna Merah kontras */
+   coler: white;
+   font-weight: bold;
+
+   /* ukuran dan bentuk */
+   padding: 8px 15px;
+   border-radius: 5px;
+
+   transition: backgraound-coler o.3s easei
+}
+
+cta-button:hover {
+   background-coler: #c0392b;
+}
+
+.nav.cta a { 
+   display: flexi
+   gap; 20px
+}
