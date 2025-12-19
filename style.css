@@ -136,9 +136,10 @@ cta-button {
 cta-button:hover {
    background-coler: #c0392b;
 }
-
+{
 .nav.cta a { 
    display: flexi;
    gap: 20px;
 }
+
 
