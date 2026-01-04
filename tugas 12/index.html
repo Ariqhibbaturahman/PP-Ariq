@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 11 - Form HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <form>
+
+        <div class="form-group">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" id="nama" class="form-input" placeholder="Tulis nama kamu" required>
+            <div class="error-text">Nama wajib diisi</div>
+        </div>
+
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="email@contoh.com" required>
+            <div class="error-text">Email tidak valid</div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Jenis Kelamin</label>
+            <input type="radio" id="pria" name="gender" value="laki-laki">
+            <label for="pria">Laki-laki</label>
+
+            <input type="radio" id="wanita" name="gender" value="perempuan">
+            <label for="wanita">Perempuan</label>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Hobi</label>
+            <input type="checkbox" id="baca" name="hobi" value="membaca">
+            <label for="baca">Membaca</label>
+
+            <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+            <label for="olahraga">Olahraga</label>
+        </div>
+
+        <div class="form-group">
+            <label for="kota" class="form-label">Kota</label>
+            <select id="kota" name="kota" class="form-select">
+                <option value="">-- Pilih Kota --</option>
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+                <option value="surabaya">Surabaya</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label class="form-label">Tanggal Lahir</label>
+                <input type="date" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Umur</label>
+                <input type="number" min="1" max="100" step="1" class="form-input">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Upload File</label>
+            <input type="file" accept=".jpg,.png,.pdf">
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Warna Favorit</label>
+            <input type="color" value="#3498db">
+        </div>
+
+        <div class="form-group">
+            <label class="form-label">Pesan</label>
+            <textarea class="form-textarea" placeholder="Tulis pesan kamu"></textarea>
+        </div>
+
+        <button type="submit" class="form-button">Daftar</button>
+        <button type="reset" class="form-button" style="margin-top:10px;">Hapus</button>
+
+    </form>
+</div>
+
+</body>
+</html>
 
